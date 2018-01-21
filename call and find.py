@@ -1,2 +1,2 @@
-f=open("text.txt",r)
+open("text.txt",r)
 print(2)
