@@ -7,6 +7,7 @@ c = text.count(w)
 while c > 0:
     print(w)
     c -= 1
+
 #print(cont)
 #print (file.read(4))
 #file.close()
