@@ -1,6 +1,6 @@
-deposit = int(input("deposit="))
-percent = int(input("percent="))
-day = int(input("day="))
+deposit = int(input("deposit = "))
+percent = float(input("percent = "))
+day = int(input("day = "))
 fullpercent = 100
 year = 365
 tax = 0.13
@@ -10,5 +10,6 @@ profit = income-tax*income
 total = deposit+profit
 #popolnenie!!!!!!!!!!!!
 
-print(deposit)
-print(total)
+print("Депозит =",deposit)
+print("Доход за", day, "дней =",profit)
+print("Итог =",total)
