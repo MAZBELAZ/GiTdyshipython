@@ -1,4 +1,4 @@
-deposit = int(input("deposit = "))
+deposit = float(input("deposit = "))
 percent = float(input("percent = "))
 day = int(input("day = "))
 fullpercent = 100
